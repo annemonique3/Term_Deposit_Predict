@@ -15,7 +15,8 @@ Since we have both numerical and categorical variables, there needs to be standa
 
 #Model Implementation:
 
-The model class starts with the init method to initialize crusila properties of the classifier. It also has the fir methos which fits the model to training data. This method also initializes the arrays of mean, variance, and prior probabilities of each class. 
+This part mainly focuses on creating a classifier that determines who will and will not subscribe to the term deposit. 
+The model class starts with the init method to initialize crucial properties of the classifier. It also has the fit method which fits the model to training data. This method also initializes the arrays of mean, variance, and prior probabilities of each class. 
 Next, is the predict method that makes predictions on the data. The pdf method further calculates the probability density function for a feature  and returns it. 
 
 After a model is created, it is now trained and evaluated with its accuracy and classification report printed.
