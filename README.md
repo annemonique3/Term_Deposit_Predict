@@ -25,6 +25,7 @@ After a model is created, it is now trained and evaluated with its accuracy and 
 #Resources used: 
 - Kaggle.com
 - Numpy.org
+- Use Cloud Storage with Apache Spark; https://cloud.google.com/dataproc/docs/tutorials/gcs-connector-spark-tutorial
 - Chatgpt
   Prompt: How can a feature of class be computed: 
   mean = self.mean[class_idx]
